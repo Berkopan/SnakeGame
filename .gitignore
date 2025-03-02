@@ -1,0 +1,36 @@
+# Ignore build directory created by CLion and CMake
+cmake-build-debug/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore binary executables
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+
+# Ignore log, cache, and temporary files
+*.log
+*.cache
+*.tmp
+
+# Ignore CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore IDE-specific directories (CLion, VSCode, etc.)
+.idea/
+.vscode/
+*.iml
+
+# Ignore dynamically linked SDL libraries (optional)
+SDL2.dll
+SDL2_ttf.dll
+SDL2_image.dll
+SDL2_mixer.dll
