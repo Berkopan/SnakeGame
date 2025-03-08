@@ -32,6 +32,8 @@ Before running the game, make sure you have the following installed:
    ```sh
    ./snake_game
    ```
+   
+**Note:** In the CMakeLists.txt file, the SDL2 library is linked using a direct path, which may vary between different users. Please update the path accordingly to match your system's SDL2 installation.
 
    ---
 # 🐍 Yılan Oyunu
@@ -68,3 +70,4 @@ Oyunu çalıştırmadan önce aşağıdaki bileşenlerin yüklü olduğundan emi
    ```sh
    ./snake_game
    ```
+**Not:** CMakeLists.txt dosyasında SDL2 kütüphanesi doğrudan bir yol (path) belirterek projeye dahil edilmiştir. Ancak, bu yol kullanıcıya bağlı olarak değişiklik gösterebilir. Lütfen kendi sisteminizdeki SDL2 kurulumuna uygun olacak şeklde yolu güncelleyiniz. 
